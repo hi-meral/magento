@@ -17,3 +17,6 @@
 
 1. Shipping & Payment methods , API call
    [link to Loom!](https://www.loom.com/share/3ad158bb7b784140bc8de98b8ef2df27)
+
+1. Admin Grid with Filters
+   [link to Loom!](https://www.loom.com/share/da3d0e2a8c8b44cfbc95f8581da42352)

@@ -1,0 +1,23 @@
+<?php
+/* @var Espl\EsplBlog\Block\Index $block */
+$users = $block->getAllUsers();
+?>
+    <h2>Add Blog Detail</h2>
+    <form method="post" action="<?php echo $block->getAddDataPostUrl() ?>">
+        <fieldset>
+            <div>
+                <label for="manufacturer"><?php echo __("Name") ?></label>
+                <input type="text" name="name" id="name" />
+            </div>
+            <div>
+                <label for="model"><?php echo __("Url Key") ?>
+                    <input type="text" name="post_content" id="post_content" />
+            </div>
+            <div>
+                <label for="model"><?php echo __("Post Content") ?></label>
+                    <textarea name="name="post_content" id="post_content">
+                    </textarea>
+            </div>
+            <input type="submit" value="<?php echo __("Post Blog") ?>" />
+        </fieldset>
+    </form>
