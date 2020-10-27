@@ -1,3 +1,5 @@
+## Magento Training
+
 1. Setup of the platform
    [link to Loom!](https://www.loom.com/share/0a33a93ae92041fd9ad3922506db59b8?sharedAppSource=personal_library)
 
@@ -13,5 +15,5 @@
 1. Magento API (Configurable and Bundle Products)
    [link to Loom!](https://www.loom.com/share/ec05cc3af02a4420b2484bb1efcc4c23)
 
-1. Custom Payment Gateway
-   [link to Loom!](https://www.loom.com/share/abbe3d49b8f84649b8e9ea57b0d46435?from_recorder=1)
+1. Shipping & Payment methods , API call
+   [link to Loom!](https://www.loom.com/share/3ad158bb7b784140bc8de98b8ef2df27)
