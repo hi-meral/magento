@@ -1,0 +1,15 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="espl_laptops_laptop_listing_data_source" xsi:type="string">Espl\Laptops\Model\ResourceModel\Laptop\Grid\Collection</item>
+            </argument>
+        </arguments>
+    </type>
+    <virtualType name="Espl\Laptops\Model\ResourceModel\Laptop\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">laptops</argument>
+            <argument name="resourceModel" xsi:type="string">Espl\Laptops\Model\ResourceModel\Laptop</argument>
+        </arguments>
+    </virtualType>
+</config>

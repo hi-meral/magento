@@ -1,0 +1,21 @@
+
+    <h2>Add Laptop Detail</h2>
+    <form method="post" action="<?php echo $block->getAddDataPostUrl(); ?>">
+        <fieldset>
+            <div>
+                <label for="model"><?php echo __("Model") ?></label>
+                <input type="text" name="model_name" id="model_name" class="input-text" data-validate="{required:true, 'validate-alphanum-with-spaces':true}" />
+            </div>
+            <div>
+                <label for="model"><?php echo __("Ram") ?>
+                    <input type="text" name="ram" id="ram"
+                     class="input-text" data-validate="{required:true, 'validate-alphanum-with-spaces':true}"/>
+            </div>
+            <div>
+                <label for="model"><?php echo __("Description") ?></label>
+                    <textarea class="FormElement" name="description" id="description" cols="40" rows="3"></textarea>
+            </div>
+            <input type="submit" class="action submit primary" value="<?php echo __("Add Laptop") ?>" />
+        </fieldset>
+    </form>
+    

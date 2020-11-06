@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+         <add id="Espl_Laptops::laptops" title="Laptops" module="Espl_Laptops" sortOrder="51" resource="Espl_Laptops::laptops"/>
+          <add id="Espl_Laptops::laptop" title="Manage Laptops" module="Espl_Laptops" sortOrder="10" action="espl_laptops/laptop" resource="Espl_Laptops::laptop" parent="Espl_Laptops::laptops"/>
+    </menu>
+</config>
