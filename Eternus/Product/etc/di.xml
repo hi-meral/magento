@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <type name="Magento\Checkout\Model\Cart">
+        <plugin name="beforeAddtoCart" type="Eternus\Product\Plugin\Cart" sortOrder="1"></plugin>
+    </type>
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="afterProductName" type="Eternus\Product\Plugin\Product" sortOrder="1"></plugin>
+    </type>
+   
+
+</config>
+
+

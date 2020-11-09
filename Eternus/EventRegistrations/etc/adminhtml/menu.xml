@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+
+    <menu>
+
+        <add id="Eternus_EventRegistrations::eventregistrations"
+             title="Event Registrations"
+             module="Eternus_EventRegistrations"
+             sortOrder="51" 
+             resource="Eternus_EventRegistrations::eventregistrations" />
+        <add id="Eternus_EventRegistrations::manageeventregistrations"
+             title="Manage Event Registrations " 
+             module="Eternus_EventRegistrations"
+             sortOrder="10"
+             action="eternus_eventregistrations/registrations" 
+             resource="Eternus_EventRegistrations::manage" 
+             parent="Eternus_EventRegistrations::eventregistrations" />
+
+    </menu>
+</config>
