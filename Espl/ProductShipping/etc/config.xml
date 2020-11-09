@@ -6,9 +6,9 @@
                 <active>1</active>
                 <sallowspecific>0</sallowspecific>
                 <model>Espl\ProductShipping\Model\Carrier\Shipping</model>
-                <name>Mageplaza Sample Shipping Method</name>
+                <name>Espl Sample Shipping Method</name>
                 <price>10.00</price>
-                <title>Mageplaza Sample Shipping Method</title>
+                <title>Espl Sample Shipping Method</title>
                 <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
                 <handling_type>F</handling_type>
             </simpleshipping>
