@@ -1,0 +1,48 @@
+
+
+<h1 style="color: red">Welcome Feedback Form </h1>
+
+<img  alt="test" 
+      src="https://www.eternussolutions.com/wp-content/themes/Eternus_Theme/images/logo.png"/>
+
+
+<div class="container">
+    <h2>Customer Feedback </h2>
+    
+   <form method="post" action="<?php echo $block->getAddDataPostUrl(); ?>"> 
+        <fieldset>
+            <div class="form-group">
+                <label for="usr">Customer Name:</label>
+                <input type="text" class="form-control" id="name"  name="name">
+            </div>
+            <div class="form-group">
+                <label for="usr"> Overall Service:</label>
+                
+                <select  id="status" name="status">
+                      <option value="excellent">Excellent </option>
+
+                      <option value="good">Good</option>
+  <option value="fair">Fair</option>
+  <option value="poor">Poor </option>
+  <option value="bad">Bad</option>
+</select>
+
+            </div>
+            
+            <div class="form-group">
+                <label for="comment">Feedback:</label>
+                <textarea class="form-control" rows="5" id="feedback" name="feedback"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit Feedback" />
+            </div>
+        </fieldset>
+    </form>
+</div>
+
+
+<style type="text/css">
+    body {
+        background-color: lightblue;
+    }
+</style>

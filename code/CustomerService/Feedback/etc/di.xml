@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="customerservice_feedback_feedback_listing_data_source"
+                      xsi:type="string">
+                    CutomerService\Feedback\Model\ResourceModel\Feedback\Grid\Collection</item>
+            </argument>
+        </arguments>
+    </type>
+    <type name="CutomerService\Feedback\Model\ResourceModel\Feedback\Grid\Collection">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">customer_feedbacks</argument>
+            <argument name="eventPrefix" xsi:type="string">customerservice_feedback_grid_collection</argument>
+            <argument name="eventObject" xsi:type="string">customerservice_feedback_collection</argument>
+            <argument name="resourceModel" xsi:type="string">CustomerService\Feedback\Model\ResourceModel\Feedback</argument>
+        </arguments>
+    </type>
+    <virtualType 
+        name="AllFeedbackGridDataProvider" 
+                type="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">CutomerService\Feedback\Model\ResourceModel\Feedback\Collectio</argument>
+            <argument name="resourceModel" 
+                      xsi:type="string">CustomerService\Feedback\Model\ResourceModel\Feedback</argument>
+        </arguments>
+    </virtualType>
+</config>

@@ -1,0 +1,8 @@
+
+
+
+1. module development : https://www.loom.com/share/5614cd9a02e24583859cb7b8fee1c668
+2. plugin development : https://www.loom.com/share/48828762f21f4d1db8126840448dbd76 
+3. ORM and Admin Grid : https://www.loom.com/share/fc7e7d10c01c42d49590be237bb3be9f
+4. magento API : https://www.loom.com/share/f9519901144b4f8786414b513e0d0b26
+5. Capstone Project  :

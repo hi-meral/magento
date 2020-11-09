@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="CustomerService_Customer::customerservice" 
+                     title="Customer Service" 
+                     translate="title"
+                     module="CustomerService_Customer"
+                     sortOrder="20" 
+                     resource="CustomerService_Customer::customerservice" />
+		<add id="CustomerService_Customer::all_feedback" 
+                     title="All Feedback" 
+                     translate="title"
+                     module="CustomerService_Customer" sortOrder="10" 
+                     resource="CustomerService_Customer::all_feedback" 
+                     parent="CustomerService_Customer::customerservice" 
+                     action="customerservice_customer/index" />
+	</menu>
+</config>

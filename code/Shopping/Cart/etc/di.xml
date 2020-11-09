@@ -1,0 +1,5 @@
+<config>
+    <type name="Magento\Checkout\Model\Cart">
+      <plugin name="beforeAddProduct" type="Shopping\Cart\Plugin\Cart" sortOrder="1" disabled="false" />
+    </type>
+</config>
