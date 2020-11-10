@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="ORM_AdminGridModule::admingrid" title="New Customer Details" module="ORM_AdminGridModule" sortOrder="51" resource="ORM_AdminGridModule::admingrid"/>
+        <add id="ORM_AdminGridModule::userdetails" title="Show Customer Details" module="ORM_AdminGridModule" sortOrder="1" parent="ORM_AdminGridModule::admingrid" resource="ORM_AdminGridModule::userdetails" action="orm_admingridmodule/userdetails"/>
+    </menu>
+</config>

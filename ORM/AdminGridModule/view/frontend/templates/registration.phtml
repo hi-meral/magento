@@ -1,0 +1,26 @@
+
+<h1>Registration page</h1>
+
+<form action="<?php echo $block->getUserDetails()?>" method="post">
+<div class="control" style="margin-left:235px;">
+    <div class="row" style="margin-bottom:5px;">
+        <div class="col-sm-6" style="width:50%"> <label>First Name: *</label></div>
+        <div class="col-sm-6" style="width:50%"><input name="firstname" type="text"></div>
+    </div>
+    <div class="row" style="margin-bottom:5px;">
+        <div class="col-sm-6" style="width:50%"><label>Last Name:</label></div>
+        <div class="col-sm-6" style="width:50%"><input name="lastname" type="text"></div>
+    </div>
+    <div class="row" style="margin-bottom:5px;">
+        <div class="col-sm-6" style="width:50%"><label>Contact Number: *</label></div>
+        <div class="col-sm-6" style="width:50%"> <input name="phone" type="number"></div>
+    </div>
+    <div class="row" style="margin-bottom:10px;">
+        <div class="col-sm-6" style="width:50%"> <label>Email Address:</label></div>
+        <div class="col-sm-6" style="width:50%">  <input name="emailId" type="email"></div>
+    </div>
+    <div class="row">
+    <input type="submit" value="Submit" style="width: 11%;border-radius: 3px;" class="action subscribe primary">
+    </div>
+</div>
+</form>
