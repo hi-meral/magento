@@ -6,9 +6,6 @@ use Magento\Framework\Model\AbstractModel;
 
 class Allreviews extends AbstractModel {
 
-//	const STATUS_ENABLED = 1;
-//    const STATUS_DISABLED = 0;
-
     const CACHE_TAG = 'training_reviews';
 
     //Unique identifier for use within caching
@@ -26,9 +23,4 @@ class Allreviews extends AbstractModel {
         $values = [];
         return $values;
     }
-
-//	public function getAvailableStatuses()
-//    {
-//        return [self::STATUS_ENABLED => __('Enabled'), self::STATUS_DISABLED => __('Disabled')];
-//    }
 }

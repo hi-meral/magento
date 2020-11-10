@@ -9,9 +9,9 @@
         <item name="spinner" xsi:type="string">allreviews_columns</item>
 
     </argument>
-    <dataSource name="reviews_allreviews_listing_data_source">
+    <dataSource name="nameOfDataSource">
         <argument name="dataProvider" xsi:type="configurableObject">
-            <argument name="class" xsi:type="string">AllreviewsGridDataProvider</argument>
+            <argument name="class" xsi:type="string">Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider</argument>
             <argument name="name" xsi:type="string">reviews_allreviews_listing_data_source</argument>
             <argument name="primaryFieldName" xsi:type="string">review_id</argument>
             <argument name="requestFieldName" xsi:type="string">id</argument>

@@ -5,7 +5,7 @@
     <body>
         <referenceContainer name="content">
             <block class="Training\Reviews\Block\Reviewform"
-                   name="training.reviews.example"
+                   name="training.reviews.layout.example"
                    template="Training_Reviews::reviewform.phtml" />
         </referenceContainer>
     </body>

@@ -8,7 +8,7 @@ class Collection extends AbstractCollection {
 
     protected $_idFieldName = 'review_id';
     protected $_eventPrefix = 'reviews_allreviews_collection';
-    protected $_eventObject = 'allreviewss_collection';
+    protected $_eventObject = 'allreviews_collection';
 
     /**
      * Define model & resource model

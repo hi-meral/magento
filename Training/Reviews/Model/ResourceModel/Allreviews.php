@@ -2,7 +2,7 @@
 
 namespace Training\Reviews\Model\ResourceModel;
 
-use Magento\Framework\Model\AbstractModel;
+// use Magento\Framework\Model\AbstractModel;
 
 class Allreviews extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb {
 

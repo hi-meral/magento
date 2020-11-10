@@ -1,11 +1,6 @@
 <?xml version="1.0"?>
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <virtualType name="AllreviewsGridDataProvider" type="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider">
-        <arguments>
-            <argument name="collection" xsi:type="object" shared="false">Training\Reviews\Model\ResourceModel\Allreviews\Collection</argument>
-        </arguments>
-    </virtualType>
     <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
         <arguments>
             <argument name="collections" xsi:type="array">
@@ -13,12 +8,12 @@
             </argument>
         </arguments>
     </type>
-    <type name="Training\Reviews\Model\ResourceModel\Allreviews\Grid\Collection">
+
+
+    <virtualType name="Training\Reviews\Model\ResourceModel\Allreviews\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
         <arguments>
             <argument name="mainTable" xsi:type="string">user_review</argument>
-            <argument name="eventPrefix" xsi:type="string">training_reviews_grid_collection</argument>
-            <argument name="eventObject" xsi:type="string">training_reviews_collection</argument>
-            <argument name="resourceModel" xsi:type="string">Training\Reviews\Model\ResourceModel\Allreviews</argument>
+            <argument name="resourceModel" xsi:type="string">Training\Reviews\Model\ResourceModel\Allreviews</argument>            
         </arguments>
-    </type>
+    </virtualType>
 </config>
