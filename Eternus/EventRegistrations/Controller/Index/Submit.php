@@ -41,7 +41,7 @@ class Submit extends Action{
             if ($data) {
                 $model = $this->registrationsFactory->create();
                 $model->setData($data)->save();
-                $this->messageManager->addSuccessMessage(__("Data Saved Successfully."));
+                $this->messageManager->addSuccessMessage(__("Thanks for your interest in our Event. We will contact you shortly!"));
             }
         } catch (\Exception $e) {
             $this->messageManager->addErrorMessage($e, __("We can\'t submit your request, Please try again."));
