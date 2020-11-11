@@ -5,19 +5,19 @@
  *
  * @author espladmin
  */
+
 namespace Training\PluginModule\Plugin;
 
-class Cart
-{
-        public function aroundAddProduct(
-                \Magento\Checkout\Model\Cart $subject,
-                \Closure $proceed,
-                $productInfo,
-                $requestInfo = null
-        ) {
-                $productInfo['price'] += 50; // setting quantity to 10
-                $result = $proceed($productInfo, $requestInfo);
-                // change result here
-                return $result;
-        }
+class Cart {
+
+    public function beforeAddProduct(
+            \Magento\Checkout\Model\Cart $subject,
+            $productInfo,
+            $requestInfo = null) {
+
+        $productInfo['price'] += 50; // increasing price by 50      
+
+        return array($productInfo, $requestInfo);
+    }
+
 }

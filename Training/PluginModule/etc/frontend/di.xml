@@ -4,7 +4,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
 
     <type name="Magento\Checkout\Model\Cart">
-        <plugin name="aroundAddProduct" type="Training\PluginModule\Plugin\Cart" sortOrder="1" />
+        <plugin name="beforeAddProduct" type="Training\PluginModule\Plugin\Cart" sortOrder="1" />
     </type>
 
 </config>
