@@ -21,3 +21,6 @@
 
 4. Magento ORM and Admin Grid
 	https://www.loom.com/share/b173a5310bb741b6a4a9f97867a6625a
+
+5. Magento API
+	https://www.loom.com/share/70d67244c1f04e23bc1aaac119ccfda9
